@@ -1,0 +1,21 @@
+{
+  "ocr": {
+    "confidence_threshold": 0.70,
+    "use_angle_cls": false,
+    "language": "en",
+    "use_gpu": false
+  },
+  "performance": {
+    "min_frame_interval": 0.2,
+    "max_ram_percent": 75,
+    "cleanup_interval": 60,
+    "frame_skip": 1,
+    "queue_size": 5,
+    "sleep_when_full": 0.002,
+    "max_workers": 12
+  },
+  "files": {
+    "config_file": "vung_quet_nho.json",
+    "signal_file": "code_signal.json"
+  }
+}
